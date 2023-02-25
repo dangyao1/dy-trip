@@ -20,6 +20,13 @@ const routes = [
   {
     path: '/message',
     component: () => import('@/views/message/index.vue')
+  },
+  {
+    path: '/city',
+    component: () => import('@/views/city/index.vue')
+    // meta: {
+    //   hiddenTabbar: true
+    // }
   }
 ]
 

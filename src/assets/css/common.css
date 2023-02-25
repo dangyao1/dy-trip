@@ -1,8 +1,17 @@
 :root {
   --primary-color: #ff9854;
+  --van-search-left-icon-color: var(--primary-color) !important;
 }
 
 body {
   font-size: 14px;
   font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}
+
+.top-nav {
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: auto;
 }
